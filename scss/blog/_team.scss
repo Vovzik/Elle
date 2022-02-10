@@ -1,0 +1,118 @@
+.team {
+  margin-top: 80px;
+
+  picture {
+    display: block;
+    width: 100%;
+  }
+
+
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+ 
+
+  &__blog.width p {
+    width: 424px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+  }
+
+  &__blog p:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  &__swiper-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 932px;
+  }
+
+  &__swiper-slide {
+      cursor: pointer;
+      flex-shrink: 1;
+  }
+
+  &__swiper-slide img {
+    width: 100%;
+  }
+
+  .ourclients__border {
+    margin-bottom: 80px;
+  }
+
+  h4 {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  &__personah {
+    color: #90949B;
+    margin-top: 5px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  &__paragraf {
+    width: 404px;
+    margin-left: 52px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+  }
+
+  &__blog.margin {
+   margin-top: 128px;
+  }
+
+  &__flex.margin {
+    padding-right: 52px;
+    margin-top: -82px;
+    margin-bottom: 30px;
+    justify-content: start;
+  }
+
+  &__flex.margin1 {
+    justify-content: start;
+    padding-right: 52px;
+  }
+
+  &__hover {
+    -webkit-transition: -webkit-filter 0.2s ease-in-out;
+    transition: -webkit-filter 0.2s ease-in-out;
+    transition: filter 0.2s ease-in-out;
+    transition: filter 0.2s ease-in-out, -webkit-filter 0.2s ease-in-out;
+    -webkit-filter: grayscale(99%);
+    filter: grayscale(99%);
+    -webkit-transition: filter 0.2s ease-in-out;
+    -moz-transition: filter 0.2s ease-in-out;
+    -ms-transition: filter 0.2s ease-in-out;
+    -o-transition: filter 0.2s ease-in-out;
+  }
+
+  &__swiper-slide:hover &__hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+
+  
+  &__blog.padding:hover  &__hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+
+
+
+  &__paragraf.media1 {
+    display: none;
+  }
+
+}

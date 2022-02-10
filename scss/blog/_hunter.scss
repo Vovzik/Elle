@@ -1,0 +1,88 @@
+.hunter {
+  .ourclients__border {
+    margin-bottom: 110px;
+    margin-top: 0px;
+    border-bottom: 1px solid #101010;
+  }
+
+  &__swiper-container {
+     position: relative;
+     overflow: hidden;
+  }
+
+  &__dom {
+    margin-bottom: 30px;
+    font-size: 31.98px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+  }
+
+  .apelsin {
+    margin-bottom: 0px;
+  }
+
+  .design__title {
+    font-size: 23.99px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    width: 318px;
+  }
+
+  .design__flex {
+    margin-bottom: 111px;
+  }
+
+  .projects__smotret {
+    margin: 0px;
+    font-size: 56.83px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  &__news .design__title {
+    font-size: 31.98px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    width: auto;
+  }
+
+  &__text {
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  &__swiper-news {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+  &__news &__swiper-news {
+    max-width: 932px;
+    margin: 0px;
+  }
+
+  &__inner .apelsin__swiper-container {
+    max-width: 100%;
+  }
+  &__inner {
+    margin-top: 40px;
+  }
+
+  &__inner  picture {
+    display: block;
+  }
+
+  .about__nav {
+    margin-top: 140px;
+  }
+}

@@ -1,0 +1,96 @@
+.design {
+  .ourclients__border {
+    margin-top: 112px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+  }
+
+  picture {
+    display: block;
+  }
+
+  .apelsin {
+    margin-top: 0px;
+    margin-bottom: 46px;
+  }
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  &__blog {
+    display: block;
+    width: 100%;
+  }
+
+  &__title {
+    font-size: 31.98px;
+    line-height: 120%;
+  }
+
+  &__flex1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 96px;
+    padding-left: 15px;
+  }
+
+  &__flex1 img {
+    width: 100%;
+  }
+
+  &__flex1.left {
+    justify-content: flex-start;
+    padding-right: 15px;
+    padding-left: 0px;
+  }
+
+  &__flex span,
+  &__flex1 span {
+    font-size: 31.98px;
+    line-height: 120%;
+  }
+
+  &__item {
+   width: 424px;
+   margin-right: 32px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+
+  &__item.left {
+    margin-right: 0px;
+    margin-left: 32px;
+  }
+
+  &__item .projects__smotret {
+    width: 385px;
+  }
+
+
+
+  .projects__smotret {
+    padding-right: 0px;
+    margin: 0px;
+    font-size: 56.83px;
+    padding-left: 0px;
+  }
+
+  &__images img {
+     width: 100%;
+  }
+
+  .apelsin img {
+    width: 100%;
+  }
+
+  .apelsin p {
+    width: 424px;
+  }
+
+
+}

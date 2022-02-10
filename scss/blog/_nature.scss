@@ -1,0 +1,104 @@
+.nature {
+  padding-top: 146px;
+
+  .apelsin__title {
+    font-size: 130px;
+    line-height: 130%;
+  }
+
+   .projects__smotret {
+    margin: 0px;
+    font-size: 56.83px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+  &__swiper-container {
+   overflow: hidden;
+  }
+
+  &__swiper-container:not(:last-child) {
+    margin-bottom: 80px;
+  }
+
+  .swiper-slide a {
+    width: 100%;
+  }
+
+  .swiper-slide img {
+    width: 100%;
+  }
+
+  &__images:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  &__images img {
+    width: 100%;
+  }
+
+  &__bg {
+    width: 100%;
+  }
+
+  &__bg img {
+    width: 100%;
+  }
+
+  .instagram {
+    margin-bottom: 110px;
+  }
+
+  .ourclients__border {
+    margin-bottom: 30px;
+  }
+
+  &__flex {
+    display: flex;
+    margin-bottom: 42px;
+  }
+
+  &__flex.bottom {
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  &__images-bg {
+   width: 100%;
+   margin-bottom: 80px;
+  }
+
+  &__images-bg img {
+    width: 100%;
+  }
+
+  &__items {
+    width: 652px;
+  }
+
+  &__items p {
+    line-height: 140%;
+    letter-spacing: -0.01em;
+  }
+
+  &__items p.right {
+    text-align: right;
+  }
+
+  &__items p.media {
+    display: none;
+  }
+
+  &__items p:not(:last-child) {
+    margin-bottom: 110px;
+  }
+
+  &__items:not(:last-child) {
+    margin-right: 32px
+  }
+
+  
+}

@@ -1,0 +1,20 @@
+.instagram {
+
+  &__swiper-container {
+      overflow: hidden;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+
+  .swiper-slide  img {
+    width: 100%;
+  }
+
+
+
+
+
+}

@@ -1,0 +1,258 @@
+.projects {
+  &__blog {
+    position: relative;
+    margin-bottom: 100px;
+  }
+
+  &__bg-link {
+    display: block;
+  }
+
+  picture {
+    display: block;
+  }
+
+  &__florida {
+    position: absolute;
+    top: 150px;
+    left: 179px;
+  }
+
+
+  &__blog-text {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+
+  &__blog-text h3 {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 9px;
+  }
+
+  &__blog-text h3:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 4px;
+    height: 4px;
+    background: #e28925;
+    border-radius: 50%;
+  }
+
+  &__blog-text h2 {
+    font-size: 23.99px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+
+  &__blog-text a {
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #ffffff;
+  }
+
+  &__radius {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #e289254f;
+    border-radius: 50%;
+     position: relative;
+     cursor: pointer;
+  }
+
+  &__radius.position {
+    position: absolute;
+    top: 310px;
+    left: 596px;
+  } 
+  
+  
+  &__radius.position1 {
+    position: absolute;
+    top: 298px;
+    left: 655px;
+  }
+
+  &__radius.position2 {
+    position: absolute;
+    top: 208px;
+    left: 769px;
+  }
+
+  &__radius:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid #e2892594;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__radius::after {
+    display: block;
+    border-radius: 50%;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #E28925;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ourclients__border {
+    margin-bottom: 0px;
+  }
+
+  &__florida-blog {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+
+  &__florida-blog.open {
+    height: auto;
+    height: 479px;
+    opacity: 1;
+  }
+
+  &__florida-blog.active {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  &__florida-blog.position {
+    left: 716px;
+  }
+  
+  
+  &__florida-blog.position1 {
+    left: 683px;
+    top: -100px;
+  }
+
+  &__about {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+		&__loft {
+      display: inline-block;
+      margin-left: 60px;
+      width: 424px;
+      line-height: 150%;
+      letter-spacing: -0.01em;
+      font-size: 24px;
+      margin-bottom: 100px;
+		}
+
+		&__flex {
+      display: flex;
+		}
+
+    &__flex.padding {
+      padding-left: 52px;
+      margin-bottom: 110px;
+      justify-content: flex-end;
+    }
+
+    &__flex.padding1 {
+      padding-right: 52px;
+    }
+
+		&__items.width {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 424px;
+      flex:  0 0 auto;
+      margin-right: 32px;
+		}
+
+    &__items.margin {
+      margin-right: 32px;
+    }
+
+    &__items.margin img {
+      width: 100%;
+    }
+
+    &__items p {
+      line-height: 150%;
+      letter-spacing: -0.01em;
+      font-size: 24px;
+    }
+
+    &__items.width1 img {
+      width: 100%;
+    }
+
+   
+
+		&__smotret {
+      max-width: 1440px;
+      font-size: 75.76px;
+      line-height: 100%;
+      text-align: right;
+      letter-spacing: -0.04em;
+      color: #DCDCDC;      
+      margin: 0 auto;
+      margin-top: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      transition: all 0.3s ease;
+      padding-right: 52px;
+		}
+
+    &__smotret svg {
+      width: 76px;
+      height: 76px;
+    }
+
+    &__smotret:hover {
+      color: #E28925;
+    }
+
+    &__smotret:hover svg  path {
+      fill: #E28925;
+    }
+
+    &__smotret svg {
+      margin-left: 20px;
+    }
+
+    &__bg {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    &__smotret-svg1 {
+      display: none;
+    }
+
+
+
+}

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>site</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class='header'>
+    <div class='header__top'>
+      <div class='container'>
+        <div class="header__flex">
+          <div class="header__obertka">
+            <a href="/" class="header__logo">
+              <picture>
+                <source srcset="images/logo.jpg" type="image/jpeg" media="(max-width:877px)">
+                <img src="images/logo.jpg" alt="alt">
+              </picture>
+            </a>
+            <a href="/" class="header__logo-text">Apelsin Design</a>
+          </div>
+          <nav class="header__menu-opend">
+            <ul>
+              <li><a href="#">Услуги<img src="images/check.svg" alt="#"></a></li>
+              <li><a href="#">Проекты<img src="images/check.svg" alt="#"></a></li>
+              <li><a href="#">Отзывы<img src="images/check.svg" alt="#"></a></li>
+              <li><a href="#">Пресса<img src="images/check.svg" alt="#"></a></li>
+              <li><a href="#">О нас<img src="images/check.svg" alt="#"></a></li>
+              <li class="header__margin"><a href="#">Блог<img src="images/check.svg" alt="#"></a></li>
+              <li class="header__media"><a href="#">Контакты<img src="images/check.svg" alt="#"></a></li>
+              <li class="header__media-icon">
+                <a href="#" class="header__svg">
+                  <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                      fill="#101010" />
+                  </svg>
+                </a>
+                <a href="#" class="header__svg">
+                  <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63a5.876 5.876 0 00-2.126 1.384A5.855 5.855 0 00.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 001.384 2.126A5.868 5.868 0 004.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 002.126-1.384 5.86 5.86 0 001.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 00-1.384-2.126A5.847 5.847 0 0019.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85 0 3.204-.015 3.585-.074 4.85-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 01-.899 1.382 3.744 3.744 0 01-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 01-1.379-.899 3.644 3.644 0 01-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 100 12.324 6.162 6.162 0 100-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 01-2.88 0 1.44 1.44 0 012.88 0z"
+                      fill="#101010" />
+                  </svg>
+                </a>
+                <a href="#" class="header__svg">
+                  <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.014 3.014 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                      fill="#101010" />
+                  </svg>
+                </a>
+              </li>
+              <li class="header__media-phone">
+                <a href="tel:+74951222286" class="header__phone">
+                  +7 (495) 122-22-86
+                </a>
+              </li>
+              <li class="header__media-btn">
+                <a href="#time__1" class="header__btn">
+                  Обратный звонок
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__contacts">
+            <a href="tel:+74951222286" class="header__phone">
+              +7 (495) 122-22-86
+            </a>
+            <a href="#time__1" class="header__btn">
+              Обратный звонок
+            </a>
+            <a href="#" class="header__phone">
+              Контакты
+            </a>
+            <a href="#" class="header__svg">
+              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  fill="#101010" />
+              </svg>
+            </a>
+            <a href="#" class="header__svg">
+              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63a5.876 5.876 0 00-2.126 1.384A5.855 5.855 0 00.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 001.384 2.126A5.868 5.868 0 004.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 002.126-1.384 5.86 5.86 0 001.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 00-1.384-2.126A5.847 5.847 0 0019.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85 0 3.204-.015 3.585-.074 4.85-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 01-.899 1.382 3.744 3.744 0 01-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 01-1.379-.899 3.644 3.644 0 01-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 100 12.324 6.162 6.162 0 100-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 01-2.88 0 1.44 1.44 0 012.88 0z"
+                  fill="#101010" />
+              </svg>
+            </a>
+            <a href="#" class="header__svg">
+              <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.014 3.014 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  fill="#101010" />
+              </svg>
+            </a>
+          </div>
+          <div class='header__burger'>
+            <div class='header__burger-polosa1'></div>
+            <div class='header__burger-polosa'></div>
+            <div class='header__burger-polosa3'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="apelsin">
+    <div class="container">
+      <h1 class="apelsin__title-mini">
+        Студия дизайна интерьера
+        <div class="ourclients__border">
+          <a href="#" class="apelsin__title" data-aos="new-animation">
+            Apelsin Design
+          </a>
+        </div>
+      </h1>
+    </div>
+    <div class="apelsin__swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide apelsin__swiper-slide">
+          <picture>
+            <source srcset="images/header__slider.png" type="image/webp" media="(max-width:877px)">
+            <img src="images/heroSlider.jpg" src="#" alt="alt">
+          </picture>
+        </div>
+        <div class="swiper-slide apelsin__swiper-slide">
+          <picture>
+            <source srcset="images/header__slider.png" type="image/webp" media="(max-width:877px)">
+            <img src="images/heroSlider.jpg" src="#" alt="alt">
+          </picture>
+        </div>
+        <div class="swiper-slide apelsin__swiper-slide">
+          <picture>
+            <source srcset="images/header__slider.png" type="image/webp" media="(max-width:877px)">
+            <img src="images/heroSlider.jpg" src="#" alt="alt">
+          </picture>
+        </div>
+      </div>
+      <div class="swiper-pagination apelsin__pagination">
+
+      </div>
+      <div class="apelsin__button-left">
+        <picture>
+          <source srcset="images/arrow-left.png" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/arrow-left.png" alt="alt">
+        </picture>
+      </div>
+      <div class="apelsin__button-right">
+        <picture>
+          <source srcset="images/arrow-right.png" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/arrow-right.png" alt="alt">
+        </picture>
+      </div>
+    </div>
+    <div class="container">
+      <p>Дизайн интерьера становится вашей повседневной атмосферой. </p>
+      <p>Мы конструируем пространство, которое повышает качество жизни, окружает комфортом и вдохновляет на дальнейшие
+        активные действия по преображению реальности.</p>
+      <p>
+        Задача нашей работы в том, чтобы вы смогли воплотить свои представления о красоте и комфорте, и остались доволен
+        результатом.
+      </p>
+    </div>
+  </section>
+
+  <section class="ourclients">
+    <div class="container">
+      <div class="ourclients__border">
+        <a href="#">
+          <h2 class="apelsin__title" data-aos="new-animation">
+            Наши клиенты
+          </h2>
+        </a>
+      </div>
+      <div class="ourclients__grid">
+        <picture>
+          <source srcset="images/ourk.jpg" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/ourk.jpg" alt="alt">
+        </picture>
+        <picture>
+          <source srcset="images/ourk1.jpg" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/ourk1.jpg" alt="alt">
+        </picture>
+        <picture>
+          <source srcset="images/ourk2.jpg" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/ourk2.jpg" alt="alt">
+        </picture>
+        <picture>
+          <source srcset="images/ourk1.jpg" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/ourk1.jpg" alt="alt">
+        </picture>
+        <picture>
+          <source srcset="images/ourk2.jpg" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/ourk2.jpg" alt="alt">
+        </picture>
+        <picture>
+          <source srcset="images/ourk5.jpg" type="image/jpeg" media="(max-width:877px)">
+          <img src="images/ourk5.jpg" alt="alt">
+        </picture>
+      </div>
+    </div>
+    <picture class="ourclients__video">
+      <source srcset="images/video_media.jpg" type="image/jpeg" media="(max-width:877px)">
+      <img src="images/video.jpg" alt="alt">
+
+      <a data-fancybox data-src="#modal" href="javascript:;" class="ourclients__play">
+        <svg width="40" height="40" fill="red" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="green" clip-rule="evenodd"
+            d="M15.729 7.197l13.919 8.948c.802.515 1.636 1.015 2.356 1.644.594.52 1.164 1.22 1.164 2.21 0 .992-.57 1.692-1.164 2.212-.561.49-1.363 1.006-2.277 1.594L15.812 32.75c-.915.587-1.826 1.218-2.82 1.667-.783.354-1.76.615-2.723.09-.962-.525-1.271-1.488-1.397-2.339-.122-.825-.122-1.912-.122-3.175V11.007c0-1.263 0-2.35.122-3.175.126-.85.435-1.814 1.397-2.34.962-.525 1.94-.264 2.723.09.76.344 1.675.932 2.737 1.615zm-4.256.5c.067.007.215.04.49.164.57.258 1.328.74 2.497 1.492l13.836 8.894c1.017.654 1.658 1.07 2.063 1.424.191.168.27.272.3.323l.004.006-.004.006c-.03.051-.109.155-.3.323-.405.354-1.046.77-2.063 1.424L14.46 30.647c-1.169.751-1.927 1.234-2.497 1.492-.275.124-.422.157-.49.163-.031-.06-.084-.201-.128-.5-.092-.62-.095-1.518-.095-2.907v-17.79c0-1.39.003-2.288.095-2.907.044-.299.097-.44.128-.5z"
+            fill="#101010" />
+          <path
+            d="M11.473 7.698c.067.006.215.038.49.163.57.258 1.328.74 2.497 1.492l13.836 8.894c1.017.654 1.658 1.07 2.063 1.424.191.168.27.272.3.323l.004.006-.004.006c-.03.051-.109.155-.3.323-.405.354-1.046.77-2.063 1.424L14.46 30.647c-1.169.751-1.927 1.234-2.497 1.492-.275.124-.422.157-.49.163-.031-.06-.084-.201-.128-.5-.092-.62-.095-1.518-.095-2.907v-17.79c0-1.39.003-2.288.095-2.907.044-.299.097-.44.128-.5z"
+            fill="#101010" />
+        </svg>
+      </a>
+    </picture>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <div class="ourclients__border">
+        <a href="#">
+          <h2 class="apelsin__title" data-aos="new-animation">
+            Проекты
+          </h2>
+        </a>
+      </div>
+      <picture class="projects__blog">
+        <source srcset="images/map.jpg" type="image/jpeg" media="(max-width:877px)">
+        <img src="images/map.jpg" alt="alt">
+
+        <picture class="projects__florida">
+          <div class="projects__florida-blog position">
+            <source srcset="images/florida.jpg" type="image/jpeg" media="(max-width:877px)">
+            <img src="images/florida.jpg" alt="alt">
+            <div class="projects__blog-text">
+              <h3>Флорида</h3>
+              <h2>Загородный дом в посёлке Комильфо</h2>
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
+          <div class="projects__florida-blog position1">
+            <source srcset="images/florida.jpg" type="image/jpeg" media="(max-width:877px)">
+            <img src="images/florida.jpg" alt="alt">
+            <div class="projects__blog-text">
+              <h3>Флорида</h3>
+              <h2>Загородный дом в посёлке Комильфо</h2>
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
+          <div class="projects__florida-blog position2">
+            <source srcset="images/florida.jpg" type="image/jpeg" media="(max-width:877px)">
+            <img src="images/florida.jpg" alt="alt">
+            <div class="projects__blog-text">
+              <h3>Флорида</h3>
+              <h2>Загородный дом в посёлке Комильфо</h2>
+              <a href="#">Подробнее</a>
+            </div>
+          </div>
+        </picture>
+
+
+        <span class="projects__radius position active"></span>
+        <span class="projects__radius position1"></span>
+        <span class="projects__radius position2"></span>
+      </picture>
+    </div>
+    <a href="#" class="projects__bg-link">
+      <picture>
+        <source srcset="images/projects__media.jpg" type="image/jpeg" media="(max-width:877px)">
+        <img class="projects__bg" src="images/projects.jpg" alt="alt">
+      </picture>
+    </a>
+    <div class="container">
+      <a href="#" class="projects__elle">
+        <img src="images/projects5.jpg" alt="alt">
+      </a>
+      <a href="#" class="projects__loft">Лофт и ар-деко: квартира 124 м² в Москве</a>
+    </div>
+    <div class="projects__flex padding">
+      <div class="projects__items width">
+        <a href="#">
+          <img src="images/projects4.jpg" alt="alt">
+        </a>
+        <a href="#">
+          <p>Дом в Подмосковье: интерьер с яркими акцентами</p>
+        </a>
+      </div>
+      <div class="projects__items width1">
+        <a href="#" class="projects__bg-link">
+          <picture>
+            <source srcset="images/projects__media1.jpg" type="image/jpeg" media="(max-width:877px)">
+            <img src="images/projects3.jpg" alt="alt">
+          </picture>
+        </a>
+      </div>
+    </div>
+    <div class="projects__flex">
+      <div class="projects__items margin">
+        <a href="#" class="projects__bg-link">
+          <picture>
+            <source srcset="images/projects2_memedia.jpg" type="image/jpeg" media="(max-width:877px)">
+            <img src="images/projects2.jpg" alt="alt">
+          </picture>
+        </a>
+      </div>
+      <div class="projects__items width">
+        <a href="#">
+          <img src="images/projects1.jpg" alt="alt">
+        </a>
+        <a href="#">
+          <p>Урбанизм и природа: Спокойные интерьеры московской квартиры</p>
+        </a>
+      </div>
+    </div>
+    <a href="#" class="projects__smotret">
+      Смотреть все проекты
+      <svg class="projects__smotret-svg" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M39.487 17.32a2.375 2.375 0 013.36 0l19 19a2.375 2.375 0 010 3.36l-19 19a2.375 2.375 0 11-3.36-3.36l14.946-14.945h-38.6a2.375 2.375 0 010-4.75h38.6L39.487 20.679a2.375 2.375 0 010-3.358z"
+          fill="#DCDCDC" />
+      </svg>
+      <svg class="projects__smotret-svg1" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M19.744 8.66a1.187 1.187 0 011.68 0l9.5 9.5a1.187 1.187 0 010 1.68l-9.5 9.5a1.187 1.187 0 11-1.68-1.68l7.473-7.473h-19.3a1.188 1.188 0 010-2.375h19.3l-7.473-7.472a1.187 1.187 0 010-1.68z"
+          fill="#DCDCDC" />
+      </svg>
+    </a>
+  </section>
+
+
+  <section class="team">
+    <div class="container">
+      <div class="ourclients__border">
+        <a href="#">
+          <h2 class="apelsin__title" data-aos="new-animation">
+            Команда
+          </h2>
+        </a>
+      </div>
+      <div class="team__flex">
+        <div class="team__blog width">
+          <p>
+            Более 10 лет команда Константина Валуйкина создаёт стильные интерьеры и авторскую архитектуру.
+          </p>
+          <p>
+            За эти годы нашими профессионалами введены в эксплуатацию более 100 бъектов как жилой, так и коммерческой
+            недвижимости.
+          </p>
+        </div>
+        <div class="team__blog padding">
+          <a class="projects__bg-link" href="#">
+            <picture>
+              <source srcset="images/team.jpg" type="image/jpeg" media="(max-width:877px)">
+              <img class="team__hover" src="images/team.jpg" alt="alt">
+            </picture>
+            <h4>Константин Валуйкин</h4>
+            <p class="team__personah">Руководитель студии</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="team__flex margin">
+      <div class="team__swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide team__swiper-slide">
+            <a class="projects__bg-link" href="#">
+              <picture>
+                <source srcset="images/team2.jpg" type="image/jpeg" media="(max-width:877px)">
+                <img class="team__hover" src="images/team2.jpg" alt="alt">
+              </picture>
+              <h4>Константин Валуйкин</h4>
+              <p class="team__personah">Руководитель студии</p>
+            </a>
+          </div>
+          <div class="swiper-slide team__swiper-slide">
+            <a class="projects__bg-link" href="#">
+              <picture>
+                <source srcset="images/team2.jpg" type="image/jpeg" media="(max-width:877px)">
+                <img class="team__hover" src="images/team2.jpg" alt="alt">
+              </picture>
+              <h4>Константин Валуйкин</h4>
+              <p class="team__personah">Руководитель студии</p>
+            </a>
+          </div>
+          <div class="swiper-slide team__swiper-slide">
+            <a class="projects__bg-link" href="#">
+              <picture>
+                <source srcset="images/team2.jpg" type="image/jpeg" media="(max-width:877px)">
+                <img class="team__hover" src="images/team2.jpg" alt="alt">
+              </picture>
+              <h4>Константин Валуйкин</h4>
+              <p class="team__personah">Руководитель студии</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="team__blog margin">
+        <p class="team__paragraf media">
+          Сотни довольных Заказчиков стали друзьями нашей студии, рекомендуют нас и обращаются вновь и вновь.
+        </p>
+        <p class="team__paragraf media">
+          География наших проектов разнообразна.
+        </p>
+      </div>
+    </div>
+    <div class="team__flex margin1">
+      <div class="team__swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide team__swiper-slide">
+            <a href="#" class="projects__bg-link">
+            <picture>
+              <source srcset="images/team2.jpg" type="image/jpeg" media="(max-width:877px)">
+              <img class="team__hover" src="images/team2.jpg" alt="alt">
+            </picture>
+            <h4>Константин Валуйкин</h4>
+            <p class="team__personah">Руководитель студии</p>
+          </a>
+          </div>
+          <div class="swiper-slide team__swiper-slide">
+            <a href="#" class="projects__bg-link">
+            <picture>
+              <source srcset="images/team2.jpg" type="image/jpeg" media="(max-width:877px)">
+              <img class="team__hover" src="images/team2.jpg" alt="alt">
+            </picture>
+            <h4>Константин Валуйкин</h4>
+            <p class="team__personah">Руководитель студии</p>
+          </a>
+          </div>
+          <div class="swiper-slide team__swiper-slide">
+            <a href="#" class="projects__bg-link">
+            <picture>
+              <source srcset="images/team2.jpg" type="image/jpeg" media="(max-width:877px)">
+              <img class="team__hover" src="images/team2.jpg" alt="alt">
+            </picture>
+            <h4>Константин Валуйкин</h4>
+            <p class="team__personah">Руководитель студии</p>
+          </a>
+          </div>         
+        </div>
+      </div>
+      <div class="team__blog">
+        <p class="team__paragraf media1">
+          Сотни довольных Заказчиков стали друзьями нашей студии, рекомендуют нас и обращаются вновь и вновь.
+        </p>
+        <p class="team__paragraf media1">
+          География наших проектов разнообразна.
+        </p>
+        <p class="team__paragraf">
+          Россия: Москва, Санкт-Петербург, Сочи, Тверь.
+        </p>
+        <p class="team__paragraf">
+          Италия, город
+        </p>
+        <p class="team__paragraf">
+          США: штат Флорида.
+        </p>
+        <p class="team__paragraf">
+          Швейцария.
+        </p>
+      </div>
+    </div>
+    <a href="#" class="projects__smotret">
+      Подробнее о нас
+      <svg class="projects__smotret-svg" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M39.487 17.32a2.375 2.375 0 013.36 0l19 19a2.375 2.375 0 010 3.36l-19 19a2.375 2.375 0 11-3.36-3.36l14.946-14.945h-38.6a2.375 2.375 0 010-4.75h38.6L39.487 20.679a2.375 2.375 0 010-3.358z"
+          fill="#DCDCDC" />
+      </svg>
+      <svg class="projects__smotret-svg1" width="38" height="38" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+          d="M19.744 8.66a1.187 1.187 0 011.68 0l9.5 9.5a1.187 1.187 0 010 1.68l-9.5 9.5a1.187 1.187 0 11-1.68-1.68l7.473-7.473h-19.3a1.188 1.188 0 010-2.375h19.3l-7.473-7.472a1.187 1.187 0 010-1.68z"
+          fill="#DCDCDC" />
+      </svg>
+    </a>
+  </section>
+
+  <section class="servisec">
+    <div class="container">
+      <div class="ourclients__border">
+        <a href="#">
+          <h2 class="apelsin__title" data-aos="new-animation">
+            Услуги
+          </h2>
+        </a>
+      </div>
+      <div class="servisec__new">
+        Дизайн
+        <a href="#">
+          Подробнее
+          <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M18.704 8.204c.44-.439 1.152-.439 1.591 0l9 9c.44.44.44 1.152 0 1.591l-9 9a1.125 1.125 0 11-1.59-1.59l7.079-7.08H7.5a1.125 1.125 0 010-2.25h18.284l-7.08-7.08a1.125 1.125 0 010-1.59z"
+              fill="#101010" />
+          </svg>
+        </a>
+      </div>
+      <div class="servisec__new">
+        Архитектура
+        <a href="#">
+          Подробнее
+          <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M18.704 8.204c.44-.439 1.152-.439 1.591 0l9 9c.44.44.44 1.152 0 1.591l-9 9a1.125 1.125 0 11-1.59-1.59l7.079-7.08H7.5a1.125 1.125 0 010-2.25h18.284l-7.08-7.08a1.125 1.125 0 010-1.59z"
+              fill="#101010" />
+          </svg>
+        </a>
+      </div>
+      <div class="servisec__new">
+        Генеральный подряд
+        <a href="#">
+          Подробнее
+          <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M18.704 8.204c.44-.439 1.152-.439 1.591 0l9 9c.44.44.44 1.152 0 1.591l-9 9a1.125 1.125 0 11-1.59-1.59l7.079-7.08H7.5a1.125 1.125 0 010-2.25h18.284l-7.08-7.08a1.125 1.125 0 010-1.59z"
+              fill="#101010" />
+          </svg>
+        </a>
+      </div>
+      <div class="servisec__new">
+        Ландшафный дизайн
+        <a href="#">
+          Подробнее
+          <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M18.704 8.204c.44-.439 1.152-.439 1.591 0l9 9c.44.44.44 1.152 0 1.591l-9 9a1.125 1.125 0 11-1.59-1.59l7.079-7.08H7.5a1.125 1.125 0 010-2.25h18.284l-7.08-7.08a1.125 1.125 0 010-1.59z"
+              fill="#101010" />
+          </svg>
+        </a>
+      </div>
+      <div class="servisec__new">
+        Девелоперам
+        <a href="#">
+          Подробнее
+          <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M18.704 8.204c.44-.439 1.152-.439 1.591 0l9 9c.44.44.44 1.152 0 1.591l-9 9a1.125 1.125 0 11-1.59-1.59l7.079-7.08H7.5a1.125 1.125 0 010-2.25h18.284l-7.08-7.08a1.125 1.125 0 010-1.59z"
+              fill="#101010" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="instagram">
+    <div class="container">
+      <div class="ourclients__border">
+        <a href="#">
+          <h2 class="apelsin__title" data-aos="new-animation">
+            Instagram
+            <img src="images/instagram.jpg" alt="alt">
+          </h2>
+        </a>
+      </div>
+    </div>
+    <div class="instagram__obertka">
+      <div class="instagram__swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="images/slider.jpg" data-fancybox="gallery">
+              <img src="images/slider.jpg" alt="alt" />
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="images/slider.jpg" data-fancybox="gallery">
+              <img src="images/slider2.jpg" alt="alt" />
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="images/slider.jpg" data-fancybox="gallery">
+              <img src="images/slider1.jpg" alt="alt" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <footer class="footer">
+    <picture>
+      <source srcset="images/footer__media.jpg" type="image/jpeg" media="(max-width:375px)">
+      <img class="footer__bg" src="images/footer.jpg" alt="alt">
+    </picture>
+    <div class="container">
+      <div class="ourclients__border" id="time__1">
+        <a href="#">
+          <h2 class="apelsin__title" data-aos="new-animation">
+            Всегда на связи
+          </h2>
+        </a>
+      </div>
+      <form action="#">
+        <div class="footer__flex">
+          <div class="footer__blog">
+            <label for="text">Ваше имя</label>
+            <input id="text" type="text" placeholder="Константин Валуйкин">
+          </div>
+          <div class="footer__blog">
+            <label for="text">Телефон</label>
+            <input id="text" type="tel" placeholder="+7 (999) 999-99-99">
+          </div>
+        </div>
+        <label for="message">Сообщение</label>
+        <textarea id="message"
+          placeholder="Описание проекта, вопросы по организации работы и другие контакты для связи"></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+      <p class="footer__personal">Нажимая на кнопку, вы даёте согласие на обработку персональных данных</p>
+      <div class="footer__flex-bottom">
+        <div class="footer__blog-bottom">
+          <span>Офис</span>
+          <a href="#">Москва, Рябиновая, 41 к.1 стр. 1 офис 630</a>
+        </div>
+        <div class="footer__blog-bottom">
+          <span>Email</span>
+          <a href="mailto:info@apelsindesign.ru">info@apelsindesign.ru</a>
+        </div>
+        <div class="footer__blog-bottom">
+          <span>Соц. сети</span>
+          <a href="#" class="header__svg">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                fill="#101010" />
+            </svg>
+          </a>
+          <a href="#" class="header__svg">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63a5.876 5.876 0 00-2.126 1.384A5.855 5.855 0 00.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913a5.885 5.885 0 001.384 2.126A5.868 5.868 0 004.14 23.37c.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558a5.898 5.898 0 002.126-1.384 5.86 5.86 0 001.384-2.126c.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913a5.89 5.89 0 00-1.384-2.126A5.847 5.847 0 0019.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85 0 3.204-.015 3.585-.074 4.85-.061 1.17-.256 1.805-.421 2.227a3.81 3.81 0 01-.899 1.382 3.744 3.744 0 01-1.38.896c-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421a3.716 3.716 0 01-1.379-.899 3.644 3.644 0 01-.9-1.38c-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678a6.162 6.162 0 100 12.324 6.162 6.162 0 100-12.324zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405a1.441 1.441 0 01-2.88 0 1.44 1.44 0 012.88 0z"
+                fill="#101010" />
+            </svg>
+          </a>
+          <a href="#" class="header__svg">
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.014 3.014 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                fill="#101010" />
+            </svg>
+          </a>
+        </div>
+        <div class="footer__blog-bottom">
+          <a href="#">Политика конфиденциальности</a>
+          <span>© 2021, Все права защищены</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <div id="modal">
+    <iframe src="https://www.youtube.com/embed/zRxcYsa62EA" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+
+
+
+
+
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/plagins/maskedinput/jquery.maskedinput.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

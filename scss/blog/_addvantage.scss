@@ -1,0 +1,83 @@
+.addvantage {
+  padding-top: 156px;
+
+  picture {
+    display: block;
+  }
+
+  &__flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 32px;
+    grid-row-gap: 20px;
+  }
+
+  .about__nav {
+    margin-top: 192px;
+  }
+
+  .projects__smotret {
+    margin: 0px;
+    font-size: 56.83px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  &__flex a {
+    position: relative;
+  }
+
+  &__position {
+    transition: all  0.4s ease;
+  }
+
+  &__flex a:hover &__position {
+    transform: scale(1.1);
+  }
+
+
+  &__opacyti {
+    opacity: 0;
+  }
+
+  &__flex img {
+    width: 100%;
+  }
+
+  .team {
+    margin-bottom: 80px;
+  }
+
+  &__projects .apelsin__title {
+    font-size: 128px;
+    line-height: 130%;
+  }
+
+  &__projects .ourclients__border {
+    margin-bottom: 0px;
+  }
+
+  .ourclients__grid {
+    margin: 0px;
+  }
+
+  .ourclients__grid.margin {
+    margin-bottom: 40px;
+    margin-top: 80px;
+  }
+
+  .ourclients__grid img {
+    width: 100%;
+  }
+
+  .ourclients__border.margin {
+    margin-top: 100px;
+  }
+
+  .ourclients__border.margin .apelsin__title {
+    font-size: 130px;
+    line-height: 128%;
+  }
+}
